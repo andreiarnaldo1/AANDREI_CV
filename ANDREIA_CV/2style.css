@@ -1,0 +1,55 @@
+/* General page background */
+body {
+  font-family: Arial, sans 'Times New Roman', Times, serif;
+  background-color: rgba(237, 209, 237, 0.923);  
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+/* Title (Name) */
+.name-title {  
+  color: rgb(15, 1, 1);
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 48px ;
+}
+
+/* Section Titles */
+.section-title {
+  color: rgb(15, 1, 1);
+  padding: none;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+/* Text */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Lists */
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+/* Forms */
+form {
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.input-field {
+  background-color: antiquewhite;
+  color:black;
+  border: 2px;
+  padding: 5px;
+  border-radius: 5px;
+}
